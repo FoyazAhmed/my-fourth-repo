@@ -1,10 +1,35 @@
+.container{
+    width: 1200px;
+    margin:0 auto;
+}
 body{
-    margin : 0 auto;
+    color: black;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.logo img {
+width: 150px;
+height: 130px;
+float: left;
 
 }
-h1{
-    font-size: 30px;
+.menu-area{
+    display :inline-block;
+    float: right;
 }
-h2{
-    font-size: 25px;
+.menu-area a{
+    margin:20px;
+    padding:30px 0;
+    display: inline-block;
+}
+.team-area img{
+    max-width: 100%;
+    max-height: 100%;
+
 }
